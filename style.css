@@ -1,44 +1,36 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fdfdfd;
-  color: #222;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
 }
 
-header {
-  background-color: #d30000;
-  color: white;
+h1 {
   text-align: center;
-  padding: 2rem 1rem;
+  color: #d32f2f;
 }
 
-main {
-  padding: 2rem;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
 }
 
-.productos, .contacto {
-  margin-bottom: 2rem;
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  text-align: left;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  margin: 0.5rem 0;
-  font-size: 1.1rem;
-}
-
-.contacto a {
-  color: #d30000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer {
-  background: #333;
+thead {
+  background-color: #d32f2f;
   color: white;
-  text-align: center;
-  padding: 1rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ffe5e5;
 }
